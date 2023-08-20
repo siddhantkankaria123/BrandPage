@@ -68,8 +68,7 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 2rem;
-    padding: 6rem 2rem;
-
+    padding: 3rem 1.2rem 0rem 1.2rem;
     min-height: calc(100vh - 5rem);
   }
   .content {
@@ -131,6 +130,6 @@
   .shoe-image {
     aspect-ratio: 22/12;
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
   }
 }
